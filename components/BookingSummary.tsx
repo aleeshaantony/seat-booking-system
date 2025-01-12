@@ -23,9 +23,6 @@ export default function BookingSummary({ selectedSeats, totalCost }: BookingSumm
         ))}
       </ul>
       <p className="mb-2 font-bold">Total Price: ₹{totalCost}</p>
-      <button className="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">
-        Book Now
-      </button>
     </div>
   );
 }
